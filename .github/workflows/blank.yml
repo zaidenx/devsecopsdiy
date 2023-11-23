@@ -62,8 +62,8 @@ jobs:
     - name: Login to DockerHub
       uses: docker/login-action@v2
       with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_PASSWORD }}
+        username: ${{ secrets.DOCKERHUB_zaidenx }}
+        password: ${{ secrets.DOCKERHUB_scorpio1116 }}
     - name: Build with Maven
       run: mvn clean install
     - name: Docker Build and Push to DockerHub
