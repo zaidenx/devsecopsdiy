@@ -25,6 +25,4 @@ jobs:
         with:
            name: Depcheck report
            path: ${{github.workspace}}/reports
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        
